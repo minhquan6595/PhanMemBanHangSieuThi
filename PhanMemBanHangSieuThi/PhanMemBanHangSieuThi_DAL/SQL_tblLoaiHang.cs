@@ -42,15 +42,15 @@ namespace PhanMemBanHangSieuThi_DAL
         }
         public DataTable getThongTinLoaiHang(string dk)
         {
-            return cn.getDatatable(@"SELECT MaLH as MaLH, TenLH FROM tblLoaiHang where" + dk);
+            return cn.getDatatable(@"SELECT MaLH as MaLHDB, TenLH FROM tblLoaiHang where " + dk);
         }
         public DataTable getField(string Field)
         {
-            return cn.getDatatable(String.Format(@"SELECT distinct {0} FROM tblLoaiHang", Field));
+            return cn.getDatatable(String.Format(@"SELECT distinct {0} FROM tblSELECT MaLH as MaLH, TenLH FROM tblLoaiHang", Field));
         }
         public DataTable getLoaiHang(string dk)
         {
-            return cn.getDatatable(@"SELECT * FROM tblLoaiHang " + dk);
+            return cn.getDatatable(@"SELECT * FROM tblSELECT MaLH as MaLH, TenLH FROM tblLoaiHang " + dk);
         }
     }
 }
