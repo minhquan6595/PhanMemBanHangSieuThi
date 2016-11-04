@@ -19,7 +19,7 @@ namespace PhanMemBanHangSieuThi_DAL
         //Sua du lieu
         public void updateNhanVien(EC_tblNhanVien et)
         {
-            cn.ThucThiCauLenhSQL(@"UPDATE   tblNhanVien   SET  MatKhau =N'" + et.MatKhau + "', TenNV =N'" + et.TenNV + "', GT =N'" + et.GT + "', DiaChi = N'" + et.DiaChi + "', SDT = '" + et.SDT + "'");
+            cn.ThucThiCauLenhSQL(@"UPDATE tblNhanVien SET TenNV =N'" + et.TenNV + "', GT =N'" + et.GT + "', DiaChi = N'" + et.DiaChi + "', SDT = '" + et.SDT + "' where TenDn = '" + et.TenDn + "'");
         }
         //Xoa du lieu
         public string delNhanVien(EC_tblNhanVien et)
@@ -29,11 +29,11 @@ namespace PhanMemBanHangSieuThi_DAL
         //select
         public DataTable getAllNhanVien()
         {
-            return cn.getDatatable(@"SELECT * FROM tblNhanVien ");
+            return cn.getDatatable(@"SELECT TenDn, TenNV, GT, DiaChi, SDT FROM tblNhanVien ");
         }
         public DataTable getAllNhanVien(string dk)
         {
-            return cn.getDatatable(@"SELECT * FROM tblNhanVien " + dk);
+            return cn.getDatatable(@"SELECT TenDn, TenNV, GT, DiaChi, SDT FROM tblNhanVien " + dk);
         }
         //select chi tiet
         public DataTable getThongTinNhanVien()
