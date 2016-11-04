@@ -14,12 +14,12 @@ namespace PhanMemBanHangSieuThi_DAL
         //Them du lieu
         public void addSanPham(EC_tblSanPham et)
         {
-            cn.ThucThiCauLenhSQL(@"INSERT INTO tblSanPham	(MaSP, TenSP, MaLH, SoLuong, LoiNhuan, GiaNhap, GiaBan, MoTa, NSX, HinhAnh, NhaCC)    VALUES   ( '" + et.MaSP + "' , N'" + et.TenSP + "', N'" + et.MaLH + "', N'" + et.SoLuong + "', N'" + et.LoiNhuan + "', N'" + et.GiaNhap + "', N'" + et.GiaBan + "', N'" + et.MoTa + "', N'" + et.NSX + "', N'" + et.HinhAnh + "', N'" + et.NCC + "')");
+            cn.ThucThiCauLenhSQL(@"INSERT INTO tblSanPham (MaSP, TenSP, MaLH, SoLuong, LoiNhuan, GiaNhap, GiaBan, MoTa, NSX, HinhAnh, NhaCC)    VALUES   ( '" + et.MaSP + "' , N'" + et.TenSP + "', N'" + et.MaLH + "', N'" + et.SoLuong + "', N'" + et.LoiNhuan + "', N'" + et.GiaNhap + "', N'" + et.GiaBan + "', N'" + et.MoTa + "', N'" + et.NSX + "', N'" + et.HinhAnh + "', N'" + et.NCC + "')");
         }
         //Sua du lieu
         public void updateSanPham(EC_tblSanPham et)
         {
-            cn.ThucThiCauLenhSQL(@"UPDATE  tblSanPham   SET  TenSP =N'" + et.TenSP + "', MaLH =N'" + et.MaLH + "', SoLuong =N'" + et.SoLuong + "', LoiNhuan =N'" + et.LoiNhuan + "', GiaNhap =N'" + et.GiaNhap + "', GiaBan =N'" + et.GiaBan + "', MoTa =N'" + et.MoTa + "', NSX =N'" + et.NSX + "', HinhAnh =N'" + et.HinhAnh + "', NhaCC =N'" + et.NCC + "'");
+            cn.ThucThiCauLenhSQL(@"UPDATE  tblSanPham   SET  TenSP = N'"+ et.TenSP +"', MaLH =N'" + et.MaLH + "', SoLuong =N'" + et.SoLuong + "', LoiNhuan =N'" + et.LoiNhuan + "', GiaNhap =N'" + et.GiaNhap + "', GiaBan =N'" + et.GiaBan + "', MoTa =N'" + et.MoTa + "', NSX =N'" + et.NSX + "', HinhAnh =N'" + et.HinhAnh + "', NhaCC =N'" + et.NCC + "'");
         }
         //Xoa du lieu
         public void delSanPham(EC_tblSanPham et)
