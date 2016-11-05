@@ -97,22 +97,24 @@ namespace PhanMemBanHangSieuThi
             txtTimKiem.SelectionStart = txtTimKiem.Text.Length;
         }
 
-        private void cbLoaiHang_Click(object sender, EventArgs e)
-        {
-            cbLoaiHang.SelectionStart = cbLoaiHang.Text.Length;
-            DataTable tbl = new DataTable();
-            tbl = lh.getField("TenLH");
-            cbLoaiHang.Items.Clear();
-            cbLoaiHang.Items.Add("Tất Cả");
-            for (int i = 0; i < tbl.Rows.Count; i++)
-            {
-                cbLoaiHang.Items.Add(tbl.Rows[i]["TenLH"].ToString());
-            }
-        }
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+
+
+        private void cbLoaiHang_Click(object sender, EventArgs e)
+        {
+            cbLoaiHang.SelectionStart = cbLoaiHang.Text.Length;
+            dt = lh.getField("TenLH");
+            cbLoaiHang.Items.Clear();
+            cbLoaiHang.Items.Add("Tất cả");
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                cbLoaiHang.Items.Add(dt.Rows[i]["TenLH"].ToString());
+            }
         }
 
         private void cbLoaiHang_TextChanged(object sender, EventArgs e)
