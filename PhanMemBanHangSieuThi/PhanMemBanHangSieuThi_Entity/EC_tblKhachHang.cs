@@ -13,7 +13,7 @@ namespace PhanMemBanHangSieuThi_Entity
         public string MaKH
         {
             get { return _MaKH; }
-            set { MaKH = value; }
+            set { _MaKH = value; }
         }
 
         private string _TenKH;
@@ -21,7 +21,7 @@ namespace PhanMemBanHangSieuThi_Entity
         public string TenKH
         {
             get { return _TenKH; }
-            set { TenKH = value; }
+            set { _TenKH = value; }
         }
 
         private string _GT;
@@ -58,6 +58,19 @@ namespace PhanMemBanHangSieuThi_Entity
         {
             get { return _GhiChu; }
             set { _GhiChu = value; }
+        }
+
+        public EC_tblKhachHang(string ten, string gt, string diachi, string loai, string sdt, string ghichu)
+        {
+            DateTime date = DateTime.Now;
+            Random rand = new Random();
+            this.MaKH = date.Year.ToString().Substring(2, 2) + date.Month.ToString() + date.Day.ToString() + rand.Next(0, 9999).ToString();
+            this.TenKH = ten;
+            this.GT = gt;
+            this.DiaChi = diachi;
+            this.LoaiKH = loai;
+            this.SDT = sdt;
+            this.GhiChu = ghichu;
         }
     }
 }
