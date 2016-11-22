@@ -12,13 +12,13 @@ namespace PhanMemBanHangSieuThi_Entity
         public string MaLH
         {
             get { return _MaLH; }
-            set { MaLH = value; }
+            set { _MaLH = value; }
         }
         private string _TenLH;
         public string TenLH
         {
             get { return _TenLH; }
-            set { TenLH = value; }
+            set { _TenLH = value; }
         }
     }
 }

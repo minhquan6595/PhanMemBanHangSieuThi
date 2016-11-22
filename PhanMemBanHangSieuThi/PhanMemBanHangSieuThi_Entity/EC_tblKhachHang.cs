@@ -13,7 +13,7 @@ namespace PhanMemBanHangSieuThi_Entity
         public string MaKH
         {
             get { return _MaKH; }
-            set { MaKH = value; }
+            set { _MaKH = value; }
         }
 
         private string _TenKH;
@@ -21,7 +21,7 @@ namespace PhanMemBanHangSieuThi_Entity
         public string TenKH
         {
             get { return _TenKH; }
-            set { TenKH = value; }
+            set { _TenKH = value; }
         }
 
         private string _GT;
