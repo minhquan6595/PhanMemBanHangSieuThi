@@ -96,14 +96,10 @@ namespace PhanMemBanHangSieuThi
         {
             txtTimKiem.SelectionStart = txtTimKiem.Text.Length;
         }
-
-
         private void btnThoat_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-
 
         private void cbLoaiHang_Click(object sender, EventArgs e)
         {

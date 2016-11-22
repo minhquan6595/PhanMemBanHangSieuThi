@@ -35,9 +35,9 @@ namespace PhanMemBanHangSieuThi_BUS
         {
             return bus.getSanPham(dk);
         }
-        public DataTable getField(string Field)
-        {
-            return bus.getField(Field);
-        }
+        //public DataTable getField(string Field)
+        //{
+            //return bus.getField(Field);
+        //}
     }
 }
