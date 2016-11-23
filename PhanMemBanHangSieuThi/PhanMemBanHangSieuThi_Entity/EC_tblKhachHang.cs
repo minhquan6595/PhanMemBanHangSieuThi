@@ -72,5 +72,10 @@ namespace PhanMemBanHangSieuThi_Entity
             this.SDT = sdt;
             this.GhiChu = ghichu;
         }
+
+        public EC_tblKhachHang()
+        {
+            // TODO: Complete member initialization
+        }
     }
 }

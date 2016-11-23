@@ -23,5 +23,49 @@ namespace PhanMemBanHangSieuThi
             frm.Show();
             this.Hide();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHuongDanCaiDat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnQuanLyHoaDon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnThongKeHangHoa_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnQuanLyKhachHang_Click(object sender, EventArgs e)
+        {
+            frmKhachHang frm = new frmKhachHang();
+            frm.Show();
+        }
+
+        private void btNhapHangMoi_Click(object sender, EventArgs e)
+        {
+            frmNhapHang frm = new frmNhapHang();
+            frm.Show();
+        }
+
+        private void btnQuanLyNhanVien_Click(object sender, EventArgs e)
+        {
+            frmNhanVien frm = new frmNhanVien();
+            frm.Show();
+        }
+
+        private void btnTimKiemHang_Click(object sender, EventArgs e)
+        {
+            frmTimKiemHangHoa frm = new frmTimKiemHangHoa();
+            frm.Show();
+        }
     }
 }

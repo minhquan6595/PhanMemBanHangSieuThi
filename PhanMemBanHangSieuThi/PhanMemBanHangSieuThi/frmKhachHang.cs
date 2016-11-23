@@ -93,7 +93,9 @@ namespace PhanMemBanHangSieuThi
                 MessageBox.Show("Chưa chọn khách hàng để xóa.");
                 return;
             }
-            busKH.delKhachHang( dgvKH.Rows[dong].Cells["MaKH"].Value.ToString());
+            EC_tblKhachHang ec = new EC_tblKhachHang();
+            ec.MaKH = dgvKH.Rows[dong].Cells["MaKH"].Value.ToString();
+            busKH.delKhachHang(ec );
             MessageBox.Show("Xóa ok!");
             frmKhachHang_Load(sender, e);
         }

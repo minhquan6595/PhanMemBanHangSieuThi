@@ -36,10 +36,7 @@
             this.btnQuanLyKhachHang = new System.Windows.Forms.Button();
             this.btnQuanLyNhanVien = new System.Windows.Forms.Button();
             this.btnTimKiemHang = new System.Windows.Forms.Button();
-            this.btnThongKeHangHoa = new System.Windows.Forms.Button();
             this.btnHuongDanSuDung = new System.Windows.Forms.Button();
-            this.btnHuongDanCaiDat = new System.Windows.Forms.Button();
-            this.btnQuanLyHoaDon = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -88,6 +85,7 @@
             this.btNhapHangMoi.TabIndex = 3;
             this.btNhapHangMoi.Text = "Nhập hàng mới";
             this.btNhapHangMoi.UseVisualStyleBackColor = false;
+            this.btNhapHangMoi.Click += new System.EventHandler(this.btNhapHangMoi_Click);
             // 
             // btnBanHang
             // 
@@ -112,6 +110,7 @@
             this.btnQuanLyKhachHang.TabIndex = 5;
             this.btnQuanLyKhachHang.Text = "Quản lý khách hàng";
             this.btnQuanLyKhachHang.UseVisualStyleBackColor = false;
+            this.btnQuanLyKhachHang.Click += new System.EventHandler(this.btnQuanLyKhachHang_Click);
             // 
             // btnQuanLyNhanVien
             // 
@@ -124,77 +123,40 @@
             this.btnQuanLyNhanVien.TabIndex = 6;
             this.btnQuanLyNhanVien.Text = "Quản lý nhân viên";
             this.btnQuanLyNhanVien.UseVisualStyleBackColor = false;
+            this.btnQuanLyNhanVien.Click += new System.EventHandler(this.btnQuanLyNhanVien_Click);
             // 
             // btnTimKiemHang
             // 
             this.btnTimKiemHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnTimKiemHang.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTimKiemHang.ForeColor = System.Drawing.Color.Red;
-            this.btnTimKiemHang.Location = new System.Drawing.Point(303, 225);
+            this.btnTimKiemHang.Location = new System.Drawing.Point(156, 309);
             this.btnTimKiemHang.Name = "btnTimKiemHang";
             this.btnTimKiemHang.Size = new System.Drawing.Size(208, 59);
             this.btnTimKiemHang.TabIndex = 7;
             this.btnTimKiemHang.Text = "Tìm kiếm hàng";
             this.btnTimKiemHang.UseVisualStyleBackColor = false;
-            // 
-            // btnThongKeHangHoa
-            // 
-            this.btnThongKeHangHoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnThongKeHangHoa.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThongKeHangHoa.ForeColor = System.Drawing.Color.Red;
-            this.btnThongKeHangHoa.Location = new System.Drawing.Point(303, 290);
-            this.btnThongKeHangHoa.Name = "btnThongKeHangHoa";
-            this.btnThongKeHangHoa.Size = new System.Drawing.Size(208, 59);
-            this.btnThongKeHangHoa.TabIndex = 8;
-            this.btnThongKeHangHoa.Text = "Thống kê hàng hóa";
-            this.btnThongKeHangHoa.UseVisualStyleBackColor = false;
+            this.btnTimKiemHang.Click += new System.EventHandler(this.btnTimKiemHang_Click);
             // 
             // btnHuongDanSuDung
             // 
             this.btnHuongDanSuDung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.btnHuongDanSuDung.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHuongDanSuDung.ForeColor = System.Drawing.Color.Red;
-            this.btnHuongDanSuDung.Location = new System.Drawing.Point(303, 355);
+            this.btnHuongDanSuDung.Location = new System.Drawing.Point(303, 225);
             this.btnHuongDanSuDung.Name = "btnHuongDanSuDung";
             this.btnHuongDanSuDung.Size = new System.Drawing.Size(208, 59);
             this.btnHuongDanSuDung.TabIndex = 9;
             this.btnHuongDanSuDung.Text = "Hướng dẫn sử dụng";
             this.btnHuongDanSuDung.UseVisualStyleBackColor = false;
             // 
-            // btnHuongDanCaiDat
-            // 
-            this.btnHuongDanCaiDat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnHuongDanCaiDat.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHuongDanCaiDat.ForeColor = System.Drawing.Color.Red;
-            this.btnHuongDanCaiDat.Location = new System.Drawing.Point(12, 355);
-            this.btnHuongDanCaiDat.Name = "btnHuongDanCaiDat";
-            this.btnHuongDanCaiDat.Size = new System.Drawing.Size(208, 59);
-            this.btnHuongDanCaiDat.TabIndex = 10;
-            this.btnHuongDanCaiDat.Text = "Hướng dẫn cài đặt";
-            this.btnHuongDanCaiDat.UseVisualStyleBackColor = false;
-            // 
-            // btnQuanLyHoaDon
-            // 
-            this.btnQuanLyHoaDon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.btnQuanLyHoaDon.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuanLyHoaDon.ForeColor = System.Drawing.Color.Red;
-            this.btnQuanLyHoaDon.Location = new System.Drawing.Point(12, 290);
-            this.btnQuanLyHoaDon.Name = "btnQuanLyHoaDon";
-            this.btnQuanLyHoaDon.Size = new System.Drawing.Size(208, 59);
-            this.btnQuanLyHoaDon.TabIndex = 11;
-            this.btnQuanLyHoaDon.Text = "Quản lý hóa đơn";
-            this.btnQuanLyHoaDon.UseVisualStyleBackColor = false;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Cyan;
-            this.ClientSize = new System.Drawing.Size(533, 433);
-            this.Controls.Add(this.btnQuanLyHoaDon);
-            this.Controls.Add(this.btnHuongDanCaiDat);
+            this.ClientSize = new System.Drawing.Size(533, 385);
             this.Controls.Add(this.btnHuongDanSuDung);
-            this.Controls.Add(this.btnThongKeHangHoa);
             this.Controls.Add(this.btnTimKiemHang);
             this.Controls.Add(this.btnQuanLyNhanVien);
             this.Controls.Add(this.btnQuanLyKhachHang);
@@ -205,6 +167,7 @@
             this.Controls.Add(this.label1);
             this.Name = "frmMain";
             this.Text = "Giao Diện Chính";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,9 +183,6 @@
         private System.Windows.Forms.Button btnQuanLyKhachHang;
         private System.Windows.Forms.Button btnQuanLyNhanVien;
         private System.Windows.Forms.Button btnTimKiemHang;
-        private System.Windows.Forms.Button btnThongKeHangHoa;
         private System.Windows.Forms.Button btnHuongDanSuDung;
-        private System.Windows.Forms.Button btnHuongDanCaiDat;
-        private System.Windows.Forms.Button btnQuanLyHoaDon;
     }
 }

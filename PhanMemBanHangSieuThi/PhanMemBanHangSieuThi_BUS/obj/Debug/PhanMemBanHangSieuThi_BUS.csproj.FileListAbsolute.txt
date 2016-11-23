@@ -7,3 +7,12 @@ E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHan
 E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\bin\Debug\PhanMemBanHangSieuThi_Entity.pdb
 E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\obj\Debug\PhanMemBanHangSieuThi_BUS.dll
 E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\obj\Debug\PhanMemBanHangSieuThi_BUS.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\bin\Debug\PhanMemBanHangSieuThi_BUS.dll
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\bin\Debug\PhanMemBanHangSieuThi_BUS.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\bin\Debug\PhanMemBanHangSieuThi_DAL.dll
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\bin\Debug\PhanMemBanHangSieuThi_Entity.dll
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\bin\Debug\PhanMemBanHangSieuThi_DAL.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\bin\Debug\PhanMemBanHangSieuThi_Entity.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\obj\Debug\PhanMemBanHangSieuThi_BUS.csprojResolveAssemblyReference.cache
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\obj\Debug\PhanMemBanHangSieuThi_BUS.dll
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi_BUS\obj\Debug\PhanMemBanHangSieuThi_BUS.pdb

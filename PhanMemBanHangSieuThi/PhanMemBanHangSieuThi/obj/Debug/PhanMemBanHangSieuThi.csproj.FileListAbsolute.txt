@@ -16,3 +16,27 @@ E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHan
 E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmDangNhap.resources
 E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmMain.resources
 E:\Hoc_tap\ThucTapNhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmQuanLyNguoiDung.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi.exe.config
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.exe
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi.exe.config
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.exe
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi.exe
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi_BUS.dll
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi_DAL.dll
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi_Entity.dll
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi_BUS.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi_DAL.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\bin\Debug\PhanMemBanHangSieuThi_Entity.pdb
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.csprojResolveAssemblyReference.cache
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmDangNhap.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmKhachHang.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmMain.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmNhanVien.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmNhapHang.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmQuanLyNguoiDung.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.frmTimKiemHangHoa.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.Properties.Resources.resources
+D:\HOC TAP\ky1_nam4\ki1_nam4\thuc_tap_nhom\New folder\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\PhanMemBanHangSieuThi\obj\Debug\PhanMemBanHangSieuThi.csproj.GenerateResource.Cache
