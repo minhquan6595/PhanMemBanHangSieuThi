@@ -73,5 +73,11 @@ namespace PhanMemBanHangSieuThi
             frmBanHangSieuThi frm = new frmBanHangSieuThi();
             frm.Show();
         }
+
+        private void btnHuongDanSuDung_Click(object sender, EventArgs e)
+        {
+            frmHuongDan fr = new frmHuongDan();
+            fr.Show();
+        }
     }
 }

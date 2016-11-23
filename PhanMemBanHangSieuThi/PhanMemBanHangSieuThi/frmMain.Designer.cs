@@ -150,6 +150,7 @@
             this.btnHuongDanSuDung.TabIndex = 9;
             this.btnHuongDanSuDung.Text = "Hướng dẫn sử dụng";
             this.btnHuongDanSuDung.UseVisualStyleBackColor = false;
+            this.btnHuongDanSuDung.Click += new System.EventHandler(this.btnHuongDanSuDung_Click);
             // 
             // frmMain
             // 
