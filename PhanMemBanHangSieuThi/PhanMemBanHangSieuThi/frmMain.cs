@@ -67,5 +67,11 @@ namespace PhanMemBanHangSieuThi
             frmTimKiemHangHoa frm = new frmTimKiemHangHoa();
             frm.Show();
         }
+
+        private void btnBanHang_Click(object sender, EventArgs e)
+        {
+            frmBanHangSieuThi frm = new frmBanHangSieuThi();
+            frm.Show();
+        }
     }
 }

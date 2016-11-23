@@ -52,5 +52,29 @@ namespace PhanMemBanHangSieuThi_DAL
         {
             return cn.getDatatable(@"SELECT * FROM tblChiTietHoaDon " + dk);
         }
+        public DataTable getChiTiet(string dk)
+        {
+            return cn.getDatatable(@"SELECT * FROM tblChiTietHoaDon " + dk);
+        }
+        public DataTable LayRaMaHD()//lấy ra top 1 mã thiết bị có tên mã thiết bị là gì đó
+        {
+            return cn.getDatatable("select top 1  MaHD from tblChiTietHoaDon order by MaHD desc ");
+        }
+        public DataTable LayRaNhanVien()//lấy ra top 1 mã thiết bị có tên mã thiết bị là gì đó
+        {
+            return cn.getDatatable("select TenNV from tblNhanVien ");
+        }
+        public DataTable LayRaSP(EC_tblChiTietHoaDon ec)
+        {
+            return cn.getDatatable("select *from tblSanPham where MaSP=N'" + ec.MaSP + "'");
+        }
+        public DataTable TongSL(EC_tblChiTietHoaDon ec)
+        {
+            return cn.getDatatable("select sum(SoLuong)as TongSL from tblChiTietHoaDon where MaHD=N'" + ec.MaHD + "' group by MaHD");
+        }
+        public DataTable TongTien(EC_tblChiTietHoaDon ec)
+        {
+            return cn.getDatatable("select sum(ThanhTien)as TongTien from tblChiTietHoaDon where MaHD=N'" + ec.MaHD + "' group by MaHD");
+        }
     }
 }

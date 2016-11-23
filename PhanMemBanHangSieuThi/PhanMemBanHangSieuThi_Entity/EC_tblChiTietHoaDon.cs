@@ -21,20 +21,20 @@ namespace PhanMemBanHangSieuThi_Entity
             get { return _MaSP; }
             set { _MaSP = value; }
         }
-        private string _SoLuong;
-        public string SoLuong
+        private int _SoLuong;
+        public int SoLuong
         {
             get { return _SoLuong; }
             set { _SoLuong = value; }
         }
-        private string _DonGia;
-        public string DonGia
+        private int _DonGia;
+        public int DonGia
         {
             get { return _DonGia; }
             set { _DonGia = value; }
         }
-        private string _ThanhTien;
-        public string ThanhTien
+        private int _ThanhTien;
+        public int ThanhTien
         {
             get { return _ThanhTien; }
             set { _ThanhTien = value; }

@@ -98,6 +98,7 @@
             this.btnBanHang.TabIndex = 4;
             this.btnBanHang.Text = "Bán hàng";
             this.btnBanHang.UseVisualStyleBackColor = false;
+            this.btnBanHang.Click += new System.EventHandler(this.btnBanHang_Click);
             // 
             // btnQuanLyKhachHang
             // 

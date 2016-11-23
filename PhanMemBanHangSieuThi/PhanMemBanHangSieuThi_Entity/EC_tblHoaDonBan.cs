@@ -29,9 +29,9 @@ namespace PhanMemBanHangSieuThi_Entity
             get { return _NgayBan; }
             set { _NgayBan = value; }
         }
-        private string _TongTien;
+        private int _TongTien;
 
-        public string TongTien
+        public int TongTien
         {
             get { return _TongTien; }
             set { _TongTien = value; }
